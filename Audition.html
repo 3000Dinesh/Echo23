@@ -1,0 +1,266 @@
+<html>
+<head>
+<title> Audition </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="awards.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  input {
+		background-color : transparent;
+		border-color: transparent;
+
+	}
+  select {
+    background-color : transparent;
+		border-color: transparent;
+  }
+  textarea {
+    background-color : transparent;
+		border-color: transparent;
+  }
+* {
+  box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(auditon.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+footer{
+    background-color: #04070bfb;
+    padding: 50px 20px;
+    border-top: 5px solid #11dbff;
+}
+.footer-container{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+</style>
+</head>
+<body bgcolor="#000000" text="#11dbff">
+  <div class="header">
+    <div class="navbar">
+        <img src="echo 3.png" class="logo" width="100" height="100">
+        <ul class="menu">
+            <li><a href="home.html" class="active"><u>Home</u></a></li>
+            <li><a href="OUR WORK - PAST MOVIES.html"><u>Past Movies</u></a></li>
+            <li><a href="UPCOMING PROJECTS.html"><u>Upcoming Movies</u></a></li>
+            <li><a href="#"><u>Audition</u></a></li>
+            <li><a href="Awards.html"><u>Awards</u></li>
+            <li><a href="aboutus.html"><u>About Us</u></a></li>
+        </ul>
+        </div>
+    </div>
+    <hr width="99%" height="1000" color="#11dbff">
+    <div class="banner">
+      <div class="extra">
+<h1><center><u>Audition Form </h1></center></u>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Full Name </label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="fullname" placeholder="Your name.." color="white">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email Id</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="emailid" name="Email Id" placeholder="Your email id ..">
+      </div>
+  <div class="row">
+      <div class="col-25">
+        <label for="lname">Phone No.</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="phoneno" name="Phone No" placeholder="Your Phone No ..">
+      </div>
+	  </div>
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+      <select id="Country">
+        <option>Canada</option>
+      <option>France</option>
+      <option>Germany</option>
+      <option>Italy</option>
+      <option>Japan</option>
+      <option>Russia</option>
+      <option>United Kingdom</option>
+      <option>United States</option>
+	  <option>India</option>
+	  <option>South Korea</option>
+    </select>
+     </div>
+    </div>
+    <div>
+        <label for="carrer">Careers</label>
+      </div>
+        </div>
+      <div class="col-75">
+         <select id="Career">
+      <option value="Actor">Actor</option>
+      <option>Actress</option>
+      <option>Cameraman</option>
+      <option> Assistant Director</option>
+      <option>Stylist</option>
+      <option>Makeup Artist</option>
+      <option>Stunt Doubles</option>
+      <option>Writers</option>
+    </select>
+	 </div>
+      </div>
+  
+	<div class="row">
+      <div class="col-25">
+        <label for="Height">Age</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Age" name="Age" placeholder="Your Age..">
+		</div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+        <label for="Height">Height</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="height" name="height" placeholder="Your Height..">
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-25">
+        <label for="Weight">Weight </label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="weight" name="weight" placeholder="Your weight..">
+      </div>
+    </div>
+	
+    <div class="row">
+      <div class="col-25">
+        <label for="address">Address</label>
+      </div>
+      <div class="col-75">
+        <textarea id="address" name="address" placeholder="Write your address.." style="height:200px"></textarea>
+      </div>
+ <div class="col-25">
+        <label for="more talents">More Talents</label>
+      </div>
+      <div class="col-75">
+        <textarea id="talents" name="more talents" placeholder="Write your talents.." style="height:200px"></textarea>
+      </div>
+    </div>
+	<label>
+	  <!--for radio-->
+      <input type="checkbox" value="terms">
+      I agree to the <a href="file:///C:/Users/Honey/Downloads/Terms%20and%20conditions.html">terms and conditions</a>
+    </label>
+    <div class="row">
+      <input type="submit" text="Submit" onClink="myFunction()">
+      <script>
+      function myFunction(){
+        window.location.href="Submit.html";
+      }
+      </script>
+    </div>
+  </form>
+</div>
+<footer>
+  <div class="footer-container">
+  <div class="footer-logo">
+      <div class="footer-social">
+          <a href="https://twitter.com/iamdinesh3000/"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/echomovieproduction/?next=%2F"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@marvel"><i class="fa fa-youtube"></i></a>
+      </div>
+  </div>
+  <a href="#"><h3>Back To The Top</h3></a>
+</footer>
+  <audio autoplay src="Local Forecast - Elevator.mp3"> You will see this text if native audio playback is not supported. </audio>
+</body>
+</html>

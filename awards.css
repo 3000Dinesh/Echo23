@@ -1,0 +1,127 @@
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .logo{
+    width: 120px;
+    cursor: pointer;
+ }
+ .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+ }
+ .navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 213, 251);
+    text-transform: uppercase;
+ }
+ .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+ }
+ .navbar ul li:hover::after{
+    width: 100%
+ }
+.extra  p{
+   z-index: 111;
+	background:  rgba(255,255,255,0.1);
+	padding: 40px;
+	max-width: 400px;
+   align-items: center;
+	border: 1px solid #8C489F;
+	border-radius: 20px;
+}
+::-webkit-Scrollbar{
+	width: 12px;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(transparent,#00c6ff);
+	border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: linear-gradient(transparent,#00c6ff)
+}
+footer{
+   background-color: #000000;
+   padding: 50px 20px;
+   border-top: 5px solid #02ebf7;
+}
+.footer-container{
+   max-width: 1100px;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+}
+.header{
+   background-color: #000000;
+   padding: 50px 20px;
+   border-bottom: 5px solid  #02ebf7;
+}
+.header-container{
+   max-width: 1100px;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+}
+.footer-logo a{
+   color: #f7a502;
+   font-size: 1.4rem;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+.footer-logo a span{
+   color: #02ebf7;
+}
+.footer-social{
+   display: flex;
+   margin-top: 10px;
+}
+.footer-social a{
+   width:40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #000000;
+   border: 1px solid #f7a502;
+   font-size: 0.9rem;
+   margin: 0px 5px;
+   transition: all ease 0.3s;
+}
+.footer-social a:hover{
+   background-color: #34fcff;
+   transition: all ease 0.3s;
+}
+.banner{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(oscar.jfif);
+   background-size: cover;
+   background-position: center;
+}
+.banner2{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(oscar2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.banner3{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(banner3.jfif);
+   background-size: cover;
+   background-position: center;
+}
